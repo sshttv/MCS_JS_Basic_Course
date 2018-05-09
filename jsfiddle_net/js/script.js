@@ -15,7 +15,7 @@ const name = document.querySelector('.name');
 name.innerHTML = personName;
 console.log(personName);
 
-const imageURL = prompt('Название новой картинки с расширением (напр., .png или .jpeg');
+const imageURL = prompt('Новая картинка с расширением (напр., .png или .jpeg');
 const image = document.querySelector('.imageBlock img');
 image.setAttribute('src', 'img/'+imageURL);
 console.log(image.getAttribute('src'));
