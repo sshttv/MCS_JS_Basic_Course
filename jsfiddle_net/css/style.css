@@ -1,0 +1,17 @@
+@keyframes borderLight {
+  from {border: 2px solid red;}
+  to {border: 2px solid yellow;}
+}
+
+.imageBlock img {
+  width: 240px;
+}
+
+.shortBio {
+  padding: 10px;
+  width: 480px;
+}
+
+.animated {
+  animation: borderLight 1s linear infinite alternate;
+}
